@@ -1,0 +1,19 @@
+{
+  "name": "abhisheksangwan.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhisheksangwan/abhisheksangwan.github.io.git"
+  },
+  "author": "Abhishek Sangwan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhisheksangwan/abhisheksangwan.github.io/issues"
+  },
+  "homepage": "https://github.com/abhisheksangwan/abhisheksangwan.github.io#readme"
+}
