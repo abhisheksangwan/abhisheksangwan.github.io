@@ -1,0 +1,116 @@
+@use "../../styles/assets" as *;
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  min-height: 100vh;
+  min-width: 100%;
+  text-transform: capitalize;
+}
+
+.projects__wrapper {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 70rem;
+}
+
+.hackathons_box {
+  display: flex;
+  gap: 2rem;
+  padding: 0 6rem;
+  justify-self: center;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hackathons {
+  .basic_info {
+    min-height: fit-content;
+    margin: 5rem 0;
+  }
+}
+
+.more {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.hackathon_wrapper {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 4rem;
+
+  .boxheading {
+    margin-bottom: 3rem;
+  }
+}
+.h_card {
+  background: $background;
+  box-shadow: 5px 5px 10px #b5b5b5, -5px -5px 10px #ffffff;
+  overflow: hidden;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  gap: 1rem;
+  max-width: 35rem;
+}
+
+.h_img {
+  width: 35%;
+  height: 100%;
+
+  img {
+    border: 0.2rem solid $yellow;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.h_info {
+  width: 65%;
+  h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: $blue;
+  }
+  h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: $yellow;
+  }
+  p {
+    font-size: 0.85rem;
+    margin-top: 0.8rem;
+    color: $black;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .projects {
+    padding: 4rem 0;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .hackathons_box {
+    padding: 1rem;
+  }
+  .h_card {
+    flex-direction: column;
+  }
+  .h_img,
+  .h_info {
+    width: 100%;
+  }
+}
