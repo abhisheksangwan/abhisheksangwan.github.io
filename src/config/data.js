@@ -2,6 +2,8 @@ export const data = {
   role: "Full Stack Developer",
   resumeLink:
     "https://drive.google.com/file/d/1Kq1UZBCx9YbzQhlwLkxIbXKCVQJuvGYZ/view?usp=drive_link",
+  resumeLink2:
+    "https://drive.google.com/file/d/1OGGtC03crifsojx0BXlFX4btEs0GqIOR/view?usp=drive_link",
   github: "https://github.com/abhisheksangwan",
   about: {
     bio: "Full Stack Developer experienced in developing web applications. Skilled in developing websites, Good problem-solving and debugging skills with a passion for learning emerging technologies.",

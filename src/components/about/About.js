@@ -32,7 +32,7 @@ const About = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href={data.resumeLink}
+            href={data.resumeLink2}
             className="btn iconbtn"
           >
             Download CV <ion-icon name="download-outline"></ion-icon>
